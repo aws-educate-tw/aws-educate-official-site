@@ -4,6 +4,7 @@ import AmbassadorStories from "./AmbassadorStories";
 import CustomButton from "./CustomButton";
 import Navbar from "./Navbar";
 import DropdownButton from "./DropdownButton";
+import Footer from "./Footer";
 
 export {
   Hero,
@@ -12,4 +13,5 @@ export {
   CustomButton,
   Navbar,
   DropdownButton,
+  Footer,
 };

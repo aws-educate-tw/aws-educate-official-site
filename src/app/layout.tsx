@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Navbar } from "../../components";
+import { Footer, Navbar } from "../../components";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -17,6 +17,7 @@ export default function RootLayout({
       <body className="relative">
         <Navbar />
         {children}
+        <Footer />
       </body>
     </html>
   );

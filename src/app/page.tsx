@@ -1,5 +1,5 @@
 import Hero from "../../components/Hero";
-import LatestEvents from "../../components/LatestEvents";
+import LatestEvents from "../../components/LatestNews";
 // import AmbassadorStories from "../../components/AmbassadorStories";
 
 export default function Home() {

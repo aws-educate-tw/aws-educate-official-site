@@ -4,7 +4,7 @@ import { footerLinks } from "../constants";
 
 const Footer = () => {
   return (
-    <footer className="flex flex-col text-gray-800 my-5 bg-[#FBFCF8]">
+    <footer className="flex flex-col text-gray-800 my-5 bg-base">
       {/* footer container */}
       <div className="w-full max-w-7xl mx-auto flex flex-col md:flex-row items-start justify-between gap-y-10 md:gap-y-0 md:gap-x-12 px-6 py-10">
         {/* 左側 Logo */}
@@ -34,7 +34,7 @@ const Footer = () => {
                           <Link
                             key={item.title}
                             href={item.url}
-                            className="hover:text-white"
+                            className="hover:text-gray-600"
                           >
                             {item.title}
                           </Link>
@@ -50,7 +50,7 @@ const Footer = () => {
                     <Link
                       key={item.title}
                       href={item.url}
-                      className="hover:text-white"
+                      className="hover:text-gray-600"
                     >
                       {item.title}
                     </Link>
@@ -67,13 +67,13 @@ const Footer = () => {
           © 2025 AWS Educate Cloud Ambassador Website. All rights reserved.
         </p>
         <div className="flex gap-6">
-          <Link href="#" className="hover:text-white">
+          <Link href="#" className="hover:text-gray-600">
             Privacy
           </Link>
-          <Link href="#" className="hover:text-white">
+          <Link href="#" className="hover:text-gray-600">
             Terms of policy
           </Link>
-          <Link href="#" className="hover:text-white">
+          <Link href="#" className="hover:text-gray-600">
             Cookie policy
           </Link>
         </div>

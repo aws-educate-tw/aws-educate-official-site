@@ -14,7 +14,7 @@
 
 /* START: Hero styles */
 .hero {
-  @apply relative flex flex-col items-center justify-center text-center bg-[#fefef8] px-6 py-32 sm:py-48 min-h-screen overflow-hidden;
+  @apply relative flex flex-col items-center justify-center text-center bg-[#FBFCF8] px-6 py-32 sm:py-48 min-h-screen overflow-hidden;
 }
 
 .hero__title {

@@ -4,7 +4,7 @@ import { footerLinks } from "../constants";
 
 const Footer = () => {
   return (
-    <footer className="flex flex-col text-gray-50 my-5 bg-slate-600">
+    <footer className="flex flex-col text-gray-800 my-5 bg-[#FBFCF8]">
       {/* footer container */}
       <div className="w-full max-w-7xl mx-auto flex flex-col md:flex-row items-start justify-between gap-y-10 md:gap-y-0 md:gap-x-12 px-6 py-10">
         {/* 左側 Logo */}
@@ -29,7 +29,7 @@ const Footer = () => {
                   {section.sections?.map((sub) => (
                     <div key={sub.title}>
                       <h3 className="mb-2 text-2xl">{sub.title}</h3>
-                      <div className="flex flex-col gap-1 text-gray-400">
+                      <div className="flex flex-col gap-1 text-gray-500">
                         {sub.links.map((item) => (
                           <Link
                             key={item.title}
@@ -45,7 +45,7 @@ const Footer = () => {
                 </div>
               ) : (
                 // ✅ 一般單一欄位
-                <div className="flex flex-col gap-1 text-gray-400">
+                <div className="flex flex-col gap-1 text-gray-500">
                   {section.links.map((item) => (
                     <Link
                       key={item.title}
@@ -62,7 +62,7 @@ const Footer = () => {
         </div>
       </div>
       {/* 最下排版權 & 隱私連結 */}
-      <div className="w-full max-w-[80%] md:max-w-7xl mx-auto border-t border-gray-400 flex flex-col md:flex-row justify-between items-center text-base text-gray-300 gap-4 px-6 py-6">
+      <div className="w-full max-w-[80%] md:max-w-7xl mx-auto border-t border-gray-500 flex flex-col md:flex-row justify-between items-center text-base text-gray-500 gap-4 px-6 py-6">
         <p className="text-center">
           © 2025 AWS Educate Cloud Ambassador Website. All rights reserved.
         </p>
